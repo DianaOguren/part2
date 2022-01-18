@@ -32,23 +32,6 @@ const Persons = (props) => {
       </ul>
   )
 }
-
-  /* if (personsFilter.length > 10){
-    return (
-    <p>Too many matches, specify another filter</p>
-  )} else if (((personsFilter.length < 10) || (personsFilter.length = 10)) && (personsFilter.length > 1)){
-      return (
-      <ul>
-          {personsFilter.map(person => 
-              <li key = {person.name.common}>{person.name.common}</li>
-          )}
-        </ul>
-    )
-  } else if (personsFilter.length === 1) {
-    return (
-    <h1>{personsFilter[0].name.common}</h1>
-
-    )} */
   
 };
 
